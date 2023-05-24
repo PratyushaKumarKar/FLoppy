@@ -15,15 +15,15 @@ async function interactWithData() {
     posRootChainManager: '0x86E4Dc95c7fbdBf52e33D563BbDB00823894C287', // Replace with the address of the RootChainManager contract
     posERC20Predicate: '0x40ec5B33f54e0E8A33A975908C5BA1c14e5BbbDf', // Replace with the address of the ERC20Predicate contract
     maticVigilUrl,
-    parentDefaultOptions: { from: 'your-ethereum-address' }, // Replace with your Ethereum address
-    maticDefaultOptions: { from: 'your-matic-address' }, // Replace with your Matic address
+    parentDefaultOptions: { from: '0x3386482EE70C7FA03A6e64D6591335C7d7AC1Efa' }, // Replace with your Ethereum address
+    maticDefaultOptions: { from: '0x3386482EE70C7FA03A6e64D6591335C7d7AC1Efa' }, // Replace with your Matic address
   });
 
   // Fetch data from Polygon APIs
   const blockNumber = await maticPOSClient.getBlockNumber();
   console.log('Current block number:', blockNumber);
 
-  const balance = await maticPOSClient.getBalance('your-matic-address'); // Replace with your Matic address
+  const balance = await maticPOSClient.getBalance('0x3386482EE70C7FA03A6e64D6591335C7d7AC1Efa'); // Replace with your Matic address
   console.log('MATIC balance:', balance);
 
   // Interact with smart contracts deployed on Matic
