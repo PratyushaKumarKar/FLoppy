@@ -1,2 +1,2 @@
 # FLoppy
-Hack o Pitch 2.0 Submission for Grand Finales
+Hack o Pitch 2.0 Submission in IIT Madras for Grand Finale 
