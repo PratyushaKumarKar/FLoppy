@@ -1,7 +1,9 @@
 {
   "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^1.0.2",
     "@openzeppelin/contracts": "^4.9.0",
     "alchemy-sdk": "^2.8.3",
+    "create-react-app": "^5.0.1",
     "hardhat": "^2.14.0",
     "web3.storage": "^4.5.4"
   }
