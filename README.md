@@ -1,2 +1,2 @@
 # FLoppy
-Hack o Pitch 2.0 Submission in IIT Madras for Grand Finale 
+Decentralized application which aims to bring control of a user's data rightfully back to their hands.
